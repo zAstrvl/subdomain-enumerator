@@ -64,14 +64,16 @@ python subdomain.py -d <target-domain> [options]
 
 ## Arguments
 
--d, --domain | Required. Target domain (e.g. example.com) | — |
--w, --wordlist | Path to a custom wordlist file | Built-in list |
--o, --output | Save results to a file | None |
--t, --threads | Number of concurrent threads | 50 |
---timeout | DNS query timeout in seconds | 2.0 |
---types | Comma-separated DNS record types to query	A,AAAA,CNAME | — |
---zone-transfer | Attempt AXFR zone transfer on all nameservers | Disabled |
---no-bruteforce | Skip wordlist brute force scan | Disabled |
+| Flag | Description | Defalut |
+|---|---|---|
+| -d, --domain | Required. Target domain (e.g. example.com) | — |
+| -w, --wordlist | Path to a custom wordlist file | Built-in list |
+| -o, --output | Save results to a file | None |
+| -t, --threads | Number of concurrent threads | 50 |
+| --timeout | DNS query timeout in seconds | 2.0 |
+| --types | Comma-separated DNS record types to query	A,AAAA,CNAME | — |
+| --zone-transfer | Attempt AXFR zone transfer on all nameservers | Disabled |
+| --no-bruteforce | Skip wordlist brute force scan | Disabled |
 
 ## 💡 Examples
 
@@ -154,10 +156,7 @@ Start time    : 13:04:21
 ---
 
 ## ⚠️ Legal Disclaimer
->This tool is intended for authorized security testing and educational purposes only.
 
->Unauthorized use against systems you do not own or have explicit written permission to test is illegal and may violate laws such as the Computer Fraud and Abuse Act (CFAA), the UK Computer Misuse Act, and equivalent legislation in other jurisdictions.
-
->The author assumes no liability for any misuse or damage caused by this tool. Always obtain proper authorization before conducting any security assessment.
+>This tool is intended for authorized security testing and educational purposes only. Unauthorized use against systems you do not own or have explicit written permission to test is illegal and may violate laws such as the Computer Fraud and Abuse Act (CFAA), the UK Computer Misuse Act, and equivalent legislation in other jurisdictions. The author assumes no liability for any misuse or damage caused by this tool. Always obtain proper authorization before conducting any security assessment.
 
 ---
