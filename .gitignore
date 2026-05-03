@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ─────────────────────────────────────────
+# Scan results (ignore sensitive data)
+# ─────────────────────────────────────────
+*.txt
+!requirements.txt        
+sonuc*
+output*
+results*
+scan_*
+*.log
+*.csv
+*.json
+
+# ─────────────────────────────────────────
+# IDE & Editor
+# ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────
+# Test & Coverage
+# ─────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─────────────────────────────────────────
+# Security — NEVER commit!
+# ─────────────────────────────────────────
+.env
+*.pem
+*.key
+*.cert
+secrets.py
+config.py
