@@ -167,7 +167,7 @@ def brute_force_scan(
                 records = result["records"]
 
                 # Print to screen
-                print(f"\n  {Color.GREEN}[+] BULUNDU: {fqdn}{Color.RESET}")
+                print(f"\n  {Color.GREEN}[+] FOUND: {fqdn}{Color.RESET}")
                 for rtype, values in records.items():
                     for val in values:
                         print(f"      {Color.YELLOW}{rtype:6}{Color.RESET} → {val}")
